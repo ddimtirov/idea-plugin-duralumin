@@ -1,0 +1,14 @@
+<!DOCTYPE idea-plugin PUBLIC "Plugin/DTD" "http://plugins.intellij.net/plugin.dtd">
+<idea-plugin>
+    <name>Duralumin</name>
+    <description>Alloy look and feel enhancements to blend better with the native OS theme.</description>
+    <version>0.2.1</version>
+    <vendor>Dimitar Dimitrov</vendor>
+    <idea-version since-build="3000"/>
+
+    <project-components>
+        <component>
+            <implementation-class>com.schizogenesis.duralumin.Duralumin</implementation-class>
+        </component>
+    </project-components>
+</idea-plugin>
